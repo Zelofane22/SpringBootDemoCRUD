@@ -1,0 +1,17 @@
+spring:
+  application:
+    name : Zewriteups
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/ctfs
+    username: zelofane
+    password: zelofane
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+server:
+  port: 9090
